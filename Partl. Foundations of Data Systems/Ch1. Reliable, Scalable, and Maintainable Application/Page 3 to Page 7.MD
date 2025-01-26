@@ -3,8 +3,6 @@
 ## 📖 Summary
 The opening of Chapter 1 sets the stage for the book by acknowledging the diversity and complexity of data systems. It highlights how different applications have unique requirements, necessitating tailored solutions that blend various tools and techniques. The chapter introduces the core objectives of building reliable, scalable, and maintainable systems, providing a roadmap for exploring these principles throughout the book. It emphasizes the need to understand both theoretical foundations and practical implementations to navigate the challenges of designing data-intensive applications effectively.
 
-## 📄 Pages 3 to 7 Summary
-
 ### Key Concepts
 
 - **Unified Data Systems**: Modern applications often combine multiple tools like databases, caches, and queues into one integrated system. For example:
@@ -29,4 +27,39 @@ The opening of Chapter 1 sets the stage for the book by acknowledging the divers
 
 3. **Maintainability**: Systems need to be easy to maintain and adapt as business requirements evolve over time.
 
+## 1. Reliability
 
+Reliability means that a system continues to work correctly, even when things go wrong. For software, this includes:
+
+- Performing the function the user expects.
+- Tolerating user mistakes or unexpected usage.
+- Maintaining good performance under expected load and data volume.
+- Preventing unauthorized access and abuse.
+
+### Faults vs. Failures
+
+- **Fault**: A single component deviating from its specification (e.g., a crashed server).
+- **Failure**: The system as a whole stops providing the required service to the user.
+
+### Fault Tolerance
+
+- **Fault Tolerance**: Systems that can cope with faults and prevent them from causing failures.
+
+### Fault-Tolerance Mechanisms
+
+It’s impossible to eliminate faults entirely, so systems should be designed to tolerate them.
+
+Techniques include:
+- Redundancy
+- Retries
+- Graceful degradation
+
+### Chaos Engineering
+
+- **Chaos Engineering**: Deliberately inducing faults (e.g., Netflix Chaos Monkey) to test fault-tolerance mechanisms and improve error handling.
+
+### Prevention vs. Tolerance
+
+In most cases, tolerating faults is better than preventing them. 
+
+However, some faults (e.g., security breaches) cannot be undone, so prevention is critical.
