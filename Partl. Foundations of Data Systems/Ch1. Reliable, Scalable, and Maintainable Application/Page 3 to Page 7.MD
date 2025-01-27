@@ -37,8 +37,8 @@ Reliability means that a system continues to work correctly, even when things go
 
 ### Faults vs. Failures
 
-- **Fault**: A single component deviating from its specification (e.g., a crashed server).
-- **Failure**: The system as a whole stops providing the required service to the user.
+- **Fault** : A single component deviating from its specification (e.g., a crashed server).
+- **Failure** : The system as a whole stops providing the required service to the user.
 
 ### Fault Tolerance
 
