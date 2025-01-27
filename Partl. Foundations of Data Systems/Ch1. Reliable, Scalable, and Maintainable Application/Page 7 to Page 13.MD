@@ -1,4 +1,4 @@
-## Chapter 1:Page 7 to Page 13
+## Chapter 1: Page 7 to Page 13
 
 ### 1. Hardware Faults
 
