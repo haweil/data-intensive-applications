@@ -1,5 +1,5 @@
 
-# Chapter 1: Page 7 to Page 13
+# Chapter 1: Page 13 to Page 18
 ## Understanding System Performance and Response Time Metrics
 ## 📊 Performance Under Load
 
